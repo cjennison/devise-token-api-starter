@@ -1,24 +1,9 @@
-# README
+# Devise Token Auth Starter Kit
+Utilization of https://github.com/lynndylanhurley/devise_token_auth
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Installation
+1. Set APP_DB and APP_DB_PW as environment variables `export APP_DB=mydatabase`
+2. `rake db:migrate`
+3. `rails s`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Usage of Auth Routes: https://maicolben.gitbooks.io/devise-token-auth/content/docs/usage/
